@@ -1,0 +1,8 @@
+title: Projekte
+preset: page
+files: false
+fields:
+  intro:
+    label: über meine Arbeiten
+    type: textarea
+    size: small

@@ -1,0 +1,17 @@
+title: Projekt
+
+sections:
+  content:
+    type: fields
+    fields:
+      
+      text:
+        label: Beschreibung
+        type: textarea
+      
+
+  gallery:
+    type: files
+    layout: cards
+    image:
+      cover: true
