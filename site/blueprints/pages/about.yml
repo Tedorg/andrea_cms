@@ -23,10 +23,26 @@ options:
 columns:
   - width: 1/2
     fields:
-      text:
-        label: Text
+      textA:
+        label: Text A
         type: textarea
-        size: huge
+        size: small
+      textB:
+        label: Text B
+        type: textarea
+        size: small
+      textC:
+        label: Text C
+        type: textarea
+        size: small
+      textD:
+        label: Text D
+        type: textarea
+        size: small
+      textE:
+        label: Text E
+        type: textarea
+        size: small
 
   - width: 1/2
     # Kirby has many different field types, from simple text fields to the more complex structure field that contains subfields

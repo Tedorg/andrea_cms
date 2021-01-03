@@ -1,40 +1,82 @@
-Title: über mich
+Title: Contact
 
 ----
 
-Text:
+Texta:
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,** there **live the b*lind texts. Se*parated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Ev# en the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+## About my Work
+My urushiware and furnitures are made from regional wood. The materials used on the urushiware are all natural and mostly unrefined. There are no chemicals or synthetics involved in the process.
+The idea of my urushiware is to create something that lasts a long time, is eco friendly and can be repaired if needed. Making a cup or a bowl takes a long time, as I work in small series and try to work as careful as I can to ensure the object lasts a lifetime or even longer.
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.
+----
+
+Textb:
+
+**About Me
+**Hi there, I’m Andrea, born 1983. I live and work in St. Gallen Switzerland. I make objects and furniture from different materials but mostly from wood and urushi. In 2000 I started a 4 year long apprenticeship as a Polymechanican. My first journey to Japan 2004 has awoken the interest in Urushi and Japanese furniture design. That was when it all started.
+
+----
+
+Textc:
+
+**About Urushi
+**Urushi lacquer is a sap from a tree (lat. rhus verniciflua). Through cutting the stem the sap can be collected. Afterwards, the raw lacquer needs to be filtered and refined. When refining the raw urushi, the only energy source is heat which reduces the water content. Urushi hardens or cures at a humidity of 70-80% and a temperature between 20-25 degrees celsius. When cured, urushi withstands high temperatures and nearly all acids. It has antibacterial properties and is perfectly food safe.
+
+----
+
+Textd:
+
+**My Studio and Showroom
+**Since 2020 I have a new Studio in St. Gallen wich includes a small shop. It is located at Moosbruggstrasse 25 and is 7 minutes away by foot from the mainstation. If you like to visit me or have a look, please send me an Email: info@andrearueeger.ch
+
+----
+
+Texte:
+
+**How to order
+**You like something you see and want to order it? Please send me an Email to: (link: mailto:info@andrearueeger.ch text: info@andrearueeger.ch)
+Please note the Serial Number for ex. AR-01 012 in the mail, it helps to avoid mistakes and makes it easier to distinguish. I ship all over the world. Shippingfees are based on the swisspost fees. Shippingfees overseas are usually 20 - 30 USD. If you have any questions please feel free to ask.
 
 ----
 
 Address:
 
-Andrea Ruegger Urusihi
-am Platz 11
-St.gallen 
-CH
+**Address
+**Andrea Rüeger, Ekkehardstrasse 4, 9000 St.Gallen
 
 ----
 
-Email: mail@ruegger.com
+Email: info@andrearueeger.ch
 
 ----
 
-Phone: +49 1234 5678
+Phone: 079 264 87 50
 
 ----
 
 Social:
 
 - 
-  platform: Twitter
-  url: https://twitter.com/getkirby
-- 
   platform: Instagram
-  url: https://instagram.com/getkirby
+  url: https://instagram.com
+
+----
+
+Text:
+
+**About Urushi
+**
+Urushi lacquer is a sap from a tree (lat. rhus verniciflua). Through cutting the stem the sap can be collected. Afterwards, the raw lacquer needs to be filtered and refined. When refining the raw urushi, the only energy source is heat which reduces the water content. Urushi hardens or cures at a humidity of 70-80% and a temperature between 20-25 degrees celsius. When cured, urushi withstands high temperatures and nearly all acids. It has antibacterial properties and is perfectly food safe.
+
+**About my Work
+**
+My urushiware and furnitures are made from regional wood. The materials used on the urushiware are all natural and mostly unrefined. There are no chemicals or synthetics involved in the process.
+The idea of my urushiware is to create something that lasts a long time, is eco friendly and can be repaired if needed. Making a cup or a bowl takes a long time, as I work in small series and try to work as careful as I can to ensure the object lasts a lifetime or even longer.
+
+
+**About Me
+**
+Hi there, I’m Andrea, born 1983. I live and work in St. Gallen Switzerland. I make objects and furniture from different materials but mostly from wood and urushi. In 2000 I started a 4 year long apprenticeship as a Polymechanican. My first journey to Japan 2004 has awoken the interest in Urushi and Japanese furniture design. That was when it all started.
 
 ----
 

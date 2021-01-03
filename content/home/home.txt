@@ -2,7 +2,12 @@ Title: Welcome Page
 
 ----
 
-Text:
+Headline: Andrea Rüeger Metal-, Woodworks, Urushi Lacquer. St.Gallen, Switzerland. Contact and inquiries: info@andrearueeger.ch
 
-Andrea Ruegger is an Urushi Artist. Her lives and works in St.Gallen Switzerland.
-Please get in touch, if you would like to have more information.
+----
+
+Email: 
+
+----
+
+Text: Hi there, I’m Andrea, born 1983. I live and work in St. Gallen Switzerland. I make objects and furniture from different materials but mostly from wood and urushi. In 2000 I started a 4 year long apprenticeship as a Polymechanican. My first journey to Japan 2004 has awoken the interest in Urushi and Japanese furniture design. That was when it all started.

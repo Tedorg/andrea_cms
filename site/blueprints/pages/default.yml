@@ -5,3 +5,8 @@ fields:
     label: Text
     type: textarea
     size: large
+  text:
+    label: Test
+    type: textarea
+    size: small
+      

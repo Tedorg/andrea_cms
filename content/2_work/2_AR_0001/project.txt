@@ -1,0 +1,17 @@
+Headline: AR_0001
+
+----
+
+Toggle: true
+
+----
+
+Number: 4
+
+----
+
+Description: Bowl from Elmwood. Diameter 120mm / Height 65mm. Nuritatefinish inside and outside. Red and translucent urushi.
+
+----
+
+Tags: nuritate, elmwood, wood, urushi

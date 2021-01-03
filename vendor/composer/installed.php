@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'f7b901fd19ddeb50ce815b303ea2f4f97907fa4f',
     'name' => 'getkirby/plainkit',
   ),
   'versions' => 
@@ -40,12 +40,12 @@
     ),
     'getkirby/cms' => 
     array (
-      'pretty_version' => '3.4.4',
-      'version' => '3.4.4.0',
+      'pretty_version' => '3.4.5',
+      'version' => '3.4.5.0',
       'aliases' => 
       array (
       ),
-      'reference' => '6112f1cb8ebf9c36e8a9f97ae08acc910ddbc792',
+      'reference' => 'db8f371b13036861c9cc5ba3e85e27f73fce5e09',
     ),
     'getkirby/composer-installer' => 
     array (
@@ -58,12 +58,12 @@
     ),
     'getkirby/plainkit' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'f7b901fd19ddeb50ce815b303ea2f4f97907fa4f',
     ),
     'laminas/laminas-escaper' => 
     array (

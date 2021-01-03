@@ -146,8 +146,8 @@ img {
 }
 
 img[data-sizes="auto"] {
-  display: block;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .lazysrcset-ratio {
@@ -325,8 +325,10 @@ footer {
 @media (min-width: 701px) {
   main .content {
     height: 50%;
+    :;
 
     img {
+      height: 80vh !important;
       min-width: 500px;
     }
 
@@ -365,5 +367,6 @@ footer {
 @media (max-height: 400px) {
   img {
     min-width: 210px !important;
+
   }
 }

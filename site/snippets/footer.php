@@ -25,19 +25,7 @@
 </footer>
 <?=js("dist/main.js")?>
 
-<script>
-  document.addEventListener('readystatechange', () => {
-    if (document.readyState == 'complete') {
-      var img = document.querySelectorAll('img')
 
-      var body = document.body;
-      body.classList.remove("hide");
-      body.classList.add("show");
-
-    }
-    console.log("tesg d")
-  });
-</script>
 
 
 

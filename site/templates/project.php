@@ -1,17 +1,17 @@
-<?php snippet("header"); ?>
+<?php snippet("header");?>
 
-<p><?= $page->text() ?></p>
+<p><?=$page->text()?></p>
 <ul class="gallery">
     <?php foreach ($page->images() as $image): ?>
         <li>
 
-            <?= $image->lazysrcset("default") ?>
+            <?=$image->lazysrcset("default")?>
 
 
         </li>
 
 
-    <?php endforeach; ?>
+    <?php endforeach;?>
 		</ul>
 
 <?php snippet("footer");

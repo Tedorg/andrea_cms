@@ -78,8 +78,8 @@ class ComposerStaticInitaf3899c369b1adaf84a0d8a323bbd995
         ),
         'Kirby\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/kirby/src',
-            1 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
+            0 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
+            1 => __DIR__ . '/../..' . '/kirby/src',
         ),
         'Bnomei\\' => 
         array (
