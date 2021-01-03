@@ -10,6 +10,8 @@ Icon
 /media/*
 !/media/index.html
 
+/content
+
 # Lock files
 # ---------------
 .lock
@@ -44,3 +46,7 @@ jspm_packages/
 # License
 # ---------------
 /site/config/.license
+*.jpg
+*.jpeg
+*.png
+*.gif
