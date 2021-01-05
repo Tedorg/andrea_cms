@@ -1,6 +1,13 @@
 Headline: AR_0002
-----
-Description: Cup from Elmwood. Diameter 75mm / Height 80mm. Nuritatefinish inside and outside. Keshi Shuai Urushi.
-----
-Tags: nuritate, elmwood, wood, urushi
 
+----
+
+Toggle: true
+
+----
+
+Description: Cup from Elmwood. Diameter 75mm / Height 80mm. Nuritatefinish inside and outside. Keshi Shuai Urushi.
+
+----
+
+Tags: nuritate, elmwood, wood, urushi

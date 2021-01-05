@@ -7,7 +7,7 @@ export default (button_element) => {
   mark list as active,
   submit list to emailaddress.
 
-  	*/
+    */
   // External JS: JS Helper Functions
   // External JS: Dynamics JS
   var btnOpen = select('.js-open');
@@ -15,6 +15,10 @@ export default (button_element) => {
   var modal = select('.js-modal');
   var tomail = select('.tomail');
   var modalChildren = modal.children;
+
+  function init() {
+    handleButton()
+  }
 
   function hideModal() {
     dynamics.animate(modal, {
@@ -155,7 +159,17 @@ export default (button_element) => {
     })
   });
 
+  function handleButton() {
+    console.log(btnOpen + "  " + localStorage.length)
+    if (localStorage.length == 0) {
+      btnOpen.innerHTML = 0;
+    } else {
+      btnOpen.innerHTML = localStorage.length + " notes"
+    }
+  }
+
   function SaveItem(value) {
+    handleButton();
     var record = value.split(",");
     var name = record[0];
     var data = JSON.stringify({ "id": record[0], "max": record[1] });
@@ -177,6 +191,7 @@ export default (button_element) => {
     button.value = key;
     button.onclick = function() {
       localStorage.removeItem(button.value);
+      handleButton()
       doShowAll()
       return false;
     };

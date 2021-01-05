@@ -10,12 +10,9 @@
         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
         srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
         data-srcset="<?=$project->image()->srcset("breakpoints")?>" />
-
         <div class="description <?php if ($project->toggle()->bool()): ?> enlarge <?php endif?>">
           <p> <?=$project->headline()?><span><?php if ($project->description()): ?>  <?=$project->description()?><?php endif?><?php foreach ($project->tags()->split() as $category): ?> | <?=$category?><?php endforeach;?></p>
           </span>
-
-
           <br>
         </div>
         </div>

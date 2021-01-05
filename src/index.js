@@ -21,6 +21,7 @@ enableBodyScroll(targetElement);
 // import "lazysizes";
 // var HorizontalScroll = require("horizontal-scroll");
 //Globals
+const m = merkliste();
 console.log(t.breakpoints.sm);
 let triggerWidth = t.breakpoints.sm;
 let converter_status = false;

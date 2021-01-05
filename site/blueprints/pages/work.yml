@@ -13,3 +13,4 @@ sections:
     extends: sections/albums
     headline: Published Projects
     status: listed
+    info: "Käuflich {{ page.toggle }}"

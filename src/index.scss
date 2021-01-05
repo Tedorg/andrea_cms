@@ -184,6 +184,8 @@
         }
 
         .menu-list {
+          width: auto;
+          border-radius: 10px;
           position: absolute;
           right: 3px;
           top: 50%;
@@ -191,11 +193,10 @@
           height: auto;
 
           button {
+            @include set-dynamic-fontsize(md);
             background: none;
             border: none;
-            color: b2c4c4;
-            font-size: 1.15rem;
-            height: 2rem;
+            color: black;
           }
         }
       }
@@ -373,7 +374,7 @@
             .text {
               h2 {
                 color: rgba(125, 125, 125, 1);
-                @include set-fontsize(md);
+                @include set-fontsize(sm);
               }
 
               a,
@@ -388,7 +389,7 @@
                 // /* Opera 7 */
                 word-wrap: break-word;
                 /* IE */
-                @include set-fontsize(md);
+                @include set-fontsize(sm);
               }
             }
           }
@@ -500,11 +501,6 @@
     }
 
     @include respond-above(sm) {
-      body {
-        position: absolute;
-        height: 100%;
-      }
-
       main .content {
         position: absolute;
         height: 100%;
@@ -527,13 +523,14 @@
             li.start-item {
               height: 100vh;
               margin-bottom: 0rem;
+              margin-right: 5rem;
 
               .start-wrapper {
                 position: relative;
 
                 .start-text {
                   display: block;
-                  max-width: 87%;
+                  max-width: 76%;
                   position: absolute;
                   top: 50%;
                   transform: translateY(-50%);
@@ -648,12 +645,6 @@
         body {
           visibility: hidden;
           opacity: 0;
-        }
-
-        nav {
-          a {
-            @include set-dynamic-fontsize(sm);
-          }
         }
 
         main .content {

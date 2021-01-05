@@ -34,7 +34,7 @@
                 <!-- <a id="display"></a> -->
             </nav>
             <div class="menu-list">
-                <button class="js-open btn-open is-active">List</button>
+                <button class="js-open btn-open is-active"></button>
             </div>
         </div>
 
