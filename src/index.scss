@@ -110,11 +110,12 @@
     }
 
     // @media (min-width: 600px) {
-    body {
+    body,html {
       touch-action: manipulation;
-      height: 100%;
-      margin: 0rem;
+      height: 100vh;
+      margin: 0;
       padding: 0;
+     
     }
 
     // }
@@ -407,14 +408,16 @@
 
         ul {
           li.start-item {
+            
             height: 100vh;
             margin-bottom: 0rem;
 
             .start-wrapper {
               display: block;
               width: 100%;
-              height: 100vh;
+              height: 100%;
               position: relative;
+              background:red;
 
               .start-text {
                 z-index: 10;
@@ -434,9 +437,10 @@
 
               img {
                 filter: brightness(50%);
-                height: 100vh;
+                height: 100%;
                 width: 100%;
                 object-fit: cover;
+               
               }
             }
           }
@@ -445,6 +449,7 @@
             margin-bottom: 2rem;
 
             .wrapper {
+              
               img {
                 display: block;
                 max-width: 700px;
@@ -459,6 +464,7 @@
               }
 
               .description {
+                display: block;
                 width: 97.5%;
                 margin: 10px auto;
 
@@ -522,7 +528,7 @@
 
             li.start-item {
               height: 100vh;
-              margin-bottom: 0rem;
+              margin-bottom:0rem;
               margin-right: 5rem;
 
               .start-wrapper {
@@ -549,9 +555,10 @@
                 }
 
                 img {
-                  height: 100vh;
+                  height: 100%;
                   width: auto;
-                  margin-bottom: -1px;
+                  margin-top: 0px;
+                  margin-bottom: -5px;
                 }
               }
             }
@@ -576,15 +583,16 @@
                   padding: 0;
 
                   &.product {
-                    border-width: 9.75rem;
+                    border-width: 8.75rem;
                   }
                 }
 
                 .description {
-                  top: 95vh;
+                  display: block;
+                  top: 90vh;
                   position: absolute;
                   margin: 0;
-                  height: 5vh;
+                  height: x10vh;
                   padding: 0;
                   margin-left: 0.1%;
 
@@ -631,8 +639,14 @@
                   }
 
                   .description {
-                    top: 90vh;
+                    top: 82.5vh;
                     height: 0;
+                    h2,a,p {
+                      line-height: 1rem;
+                      //font-size: 2rem;
+                      @include set-fontsize(xs);
+                     
+                    }
                   }
                 }
               }
