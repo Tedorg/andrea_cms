@@ -28,7 +28,7 @@ columns:
         image:
           ratio: 5/4
           cover: false
-        max: 3
+        max: 5
         size: small
 
   - width: 2/3

@@ -20,8 +20,24 @@ options:
 # Define the form layout with two columns, each column has a set of fields
 # Columns are optional but help structure the form layout
 # More about columns: https://getkirby.com/docs/guide/blueprints/layout#defining-columns
+
+
 columns:
-  - width: 1/2
+  - width: 1/3
+    fields:
+      images:
+        
+        type: files
+        layout: cards
+        template: image
+        info: "{{ file.dimensions }}"
+        image:
+          ratio: 5/4
+          cover: true
+        max: 1
+        size: small
+
+  - width: 1/3
     fields:
       textA:
         label: Text A
@@ -44,7 +60,7 @@ columns:
         type: textarea
         size: small
 
-  - width: 1/2
+  - width: 1/3
     # Kirby has many different field types, from simple text fields to the more complex structure field that contains subfields
     # All available field types: https://getkirby.com/docs/reference/panel/fields
     fields:

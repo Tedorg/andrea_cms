@@ -41,13 +41,18 @@
        </div>
     </article>
 
-      </article>
+
+
+  <article class="item">
+  <div class="text">
+       <?=$page->address()->kt()?><?=$page->email()->kt()?><?=$page->phone()->kt()?>
+          </div>
+  </article>
 
   <article class="item">
 
-  <div class="text">
-       <p><?=$page->address()->kt()?><?=$page->email()->kt()?><?=$page->phone()->kt()?></p>
-          </div>
+<img src="<?=$page->image()->url()?>"/>
+
   </article>
 
 </div>
@@ -60,9 +65,5 @@
 <?php
 snippet("footer");
 ?>
-
-
-
-
 
 

@@ -8,13 +8,24 @@
  * All config options: https://getkirby.com/docs/reference/system/options
  */
 return [
+    'routes' => [
+        [
+            'pattern' => '',
+            'action'  => function () {
+                return page('journal');
+            }
+        ],
+        [
+            'pattern' => 'my/second/url',
+            'action'  => function () {
+                // ...
+            }
+        ]
+    ],
     'debug'   => true,
     'cache'   => [
         'pages' => [
             'active' => false,
-            'ignore' => function ($page) {
-                return $page->title()->value() === 'Do not cache me';
-            },
         ],
     ],
 

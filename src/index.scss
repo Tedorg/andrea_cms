@@ -1,3 +1,4 @@
+    @import"normalize";
     @import"variables";
     @import "tools";
     @import "merkliste";
@@ -58,7 +59,14 @@
       line-height: 1.5;
       font-display: swap;
       text-decoration: none;
-      list-style: none;
+      list-style: x none;
+
+      strong {
+        font-family: aktiv-grotesk, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+
       // text-shadow: 0 1px 0 rgba(23, 31, 35, 0.5);
       // border-radius: 3px;
     }
@@ -110,12 +118,14 @@
     }
 
     // @media (min-width: 600px) {
-    body,html {
+    body,
+    html {
       touch-action: manipulation;
       height: 100vh;
       margin: 0;
       padding: 0;
-     
+      margin: 0;
+      overscroll-behavior: none;
     }
 
     // }
@@ -129,6 +139,12 @@
       /* Safari and Chrome */
       -o-animation: fadein 0.5s;
       /* Opera */
+    }
+
+    svg {
+      margin: 0;
+      height: auto;
+      width: 10px
     }
 
     .overflow-y-hidden {
@@ -169,7 +185,7 @@
 
           a {
             margin-right: 0.55rem;
-            @include set-dynamic-fontsize(lg);
+            @include set-fontsize(md);
             color: B1C4C4;
           }
 
@@ -178,10 +194,10 @@
           }
 
           //b2c4c4
-          img {
-            width: auto;
-            max-height: 2rem;
-          }
+          // img {
+          //   width: auto;
+          //   max-height: 2rem;
+          // }
         }
 
         .menu-list {
@@ -194,7 +210,7 @@
           height: auto;
 
           button {
-            @include set-dynamic-fontsize(md);
+            @include set-fontsize(md);
             background: none;
             border: none;
             color: black;
@@ -344,7 +360,14 @@
       display: block;
       height: 50px;
       width: 100%;
-      background: $background;
+    }
+
+    body {
+      .landscapemode {
+        display: none;
+
+        .start-text {}
+      }
     }
 
     main .content {
@@ -357,8 +380,8 @@
 
       .wrapper {
         position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
+        top: 1%;
+        //@debug: translateY(-50%);
         height: 69vh;
         margin: 5px;
 
@@ -370,9 +393,16 @@
           .item {
             position: relative;
             padding: 0em;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
+
+            img {
+              width: 100%;
+              height: auto;
+            }
 
             .text {
+              margin-top: 1.5rem;
+
               h2 {
                 color: rgba(125, 125, 125, 1);
                 @include set-fontsize(sm);
@@ -380,6 +410,12 @@
 
               a,
               p {
+                margin: 0;
+
+                strong {
+                  font-family: neue-haas-grotesk-display, sans-serif;
+                }
+
                 white-space: pre-wrap;
                 /* CSS3 */
                 white-space: -moz-pre-wrap;
@@ -407,40 +443,51 @@
         margin: 0 auto;
 
         ul {
+          padding-bottom: 30px;
+
           li.start-item {
-            
             height: 100vh;
-            margin-bottom: 0rem;
+            margin-bottom: 5rem;
 
             .start-wrapper {
               display: block;
               width: 100%;
-              height: 100%;
+              height: 100vh;
               position: relative;
-              background:red;
 
               .start-text {
                 z-index: 10;
-                width: 87%;
+                width: auto;
+                max-width: 100%;
                 position: absolute;
-                top: 50%;
+                top: 45%;
                 transform: translateY(-50%);
                 left: 50%;
                 transform: translateX(-50%);
+                height: 20px;
 
                 p {
-                  word-wrap: break-word;
+                  white-space: break-all !important;
+                  /* be sure its not 'nowrap'! ! ! :/ */
                   color: B1C4C4;
-                  @include set-dynamic-fontsize(lg);
+                  @include set-fontsize(md);
+                  margin: 0;
+
+                  svg {
+                    margin-bottom: -1.5%;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    height: 100%;
+                    width: auto
+                  }
                 }
               }
 
               img {
                 filter: brightness(50%);
-                height: 100%;
+                height: 100vh;
                 width: 100%;
                 object-fit: cover;
-               
               }
             }
           }
@@ -449,14 +496,16 @@
             margin-bottom: 2rem;
 
             .wrapper {
-              
               img {
                 display: block;
-                max-width: 700px;
+                //max-width: 700px;
                 width: 100%;
+                height: auto;
                 margin: 0 auto;
 
                 &.product {
+                  margin: 0;
+                  padding: 0;
                   border-width: 3.75rem;
                   border-color: transparent;
                   border-style: solid;
@@ -475,7 +524,7 @@
                 }
 
                 p {
-                  white-space: pre-wrap;
+                  white-space: normal;
                   /* CSS3 */
                   white-space: -moz-pre-wrap;
                   // /* Firefox */
@@ -507,6 +556,23 @@
     }
 
     @include respond-above(sm) {
+      body {
+        // overflow-x: hidden;
+      }
+
+      main .about {
+        .wrapper {
+          .grid {
+            .item {
+              img {
+                width: 200%;
+                height: auto;
+              }
+            }
+          }
+        }
+      }
+
       main .content {
         position: absolute;
         height: 100%;
@@ -519,21 +585,20 @@
           height: 100%;
 
           ul {
-            width: auto;
+            width: 100vw;
+            display: flex;
             height: 100%;
-            //overflow-x: scroll;
-            white-space: nowrap;
-            float: left;
-            position: flex;
+            align-items: center;
+            position: relative;
+            padding: 0;
 
+            // overflow: auto;
             li.start-item {
-              height: 100vh;
-              margin-bottom:0rem;
+              height: 100%;
+              margin-bottom: 0rem;
               margin-right: 5rem;
 
               .start-wrapper {
-                position: relative;
-
                 .start-text {
                   display: block;
                   max-width: 76%;
@@ -545,7 +610,7 @@
 
                   p {
                     color: B1C4C4;
-                    @include set-dynamic-fontsize(lg);
+                    @include set-fontsize(lg);
                     /*  */
                     word-wrap: break-word;
                     /* if you want to cut the complete word */
@@ -557,8 +622,8 @@
                 img {
                   height: 100%;
                   width: auto;
-                  margin-top: 0px;
-                  margin-bottom: -5px;
+                  margin: 0;
+                  padding: 0;
                 }
               }
             }
@@ -575,33 +640,32 @@
                 height: 100%;
 
                 img {
-                  top: 0;
+                  display: block;
+                  width: auto;
                   height: 95vh;
-                  max-width: 1600px !important;
-                  width: auto !important;
-                  margin: 0;
-                  padding: 0;
 
                   &.product {
-                    border-width: 8.75rem;
+                    margin: 0;
+                    padding: 0;
+                    border-width: 6.75rem;
                   }
                 }
 
                 .description {
                   display: block;
-                  top: 90vh;
+                  top: 95.2vh;
+                  left: 3px;
                   position: absolute;
                   margin: 0;
-                  height: x10vh;
+                  height: auto;
                   padding: 0;
-                  margin-left: 0.1%;
 
                   &.textnotvisible {}
 
                   p {
                     line-height: 1rem;
                     //font-size: 2rem;
-                    @include set-fontsize(s);
+                    @include set-fontsize(sm);
                     word-wrap: break-word;
                     /* if you want to cut the complete word */
                     white-space: normal;
@@ -614,7 +678,25 @@
         }
       }
 
-      @include respond-below_height(s) {
+      @include respond-below_height(lg) {
+        header {
+          .header-wrapper {
+            nav {
+              a {
+                margin-right: 0.55rem;
+                @include set-fontsize(md);
+                color: B1C4C4;
+              }
+            }
+
+            .menu-list {
+              right: 3px;
+
+              button {}
+            }
+          }
+        }
+
         main .content {
           .app {
             ul {
@@ -622,7 +704,67 @@
                 .start-wrapper {
                   .start-text {
                     p {
-                      @include set-dynamic-fontsize(md);
+                      @include set-fontsize(sm);
+                    }
+                  }
+                }
+              }
+
+              li {
+                .wrapper {
+                  img {
+                    height: 93vh !important;
+
+                    &.product {
+                      border-width: 2.5rem;
+                    }
+                  }
+
+                  .description {
+                    top: 93.5vh;
+
+                    p,
+                    a,
+                    button {
+                      line-height: 1.2rem;
+                      //font-size: 2rem;
+                      @include set-fontsize(sm);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      @include respond-below_height(md) {
+        header {
+          .header-wrapper {
+            nav {
+              a {
+                margin-right: 0.55rem;
+                @include set-fontsize(md);
+                color: B1C4C4;
+              }
+            }
+
+            .menu-list {
+              right: 3px;
+
+              button {}
+            }
+          }
+        }
+
+        main .content {
+          .app {
+            ul {
+              li.start-item {
+                .start-wrapper {
+                  .start-text {
+                    p {
+                      @include set-fontsize(sm);
                     }
                   }
                 }
@@ -634,18 +776,95 @@
                     height: 90vh !important;
 
                     &.product {
-                      border-width: 3.5rem;
+                      border-width: 2.5rem;
                     }
                   }
 
                   .description {
-                    top: 82.5vh;
-                    height: 0;
-                    h2,a,p {
-                      line-height: 1rem;
+                    top: 90.5vh;
+
+                    p,
+                    a,
+                    button {
+                      line-height: 1.2rem;
+                      //font-size: 2rem;
+                      @include set-fontsize(s);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      @include respond-below_height(sm) {
+        main .content {
+          .app {
+            ul {
+              li {
+                .wrapper {
+                  img {
+                    height: 85vh !important;
+
+                    &.product {
+                      border-width: 2.5rem;
+                    }
+                  }
+
+                  .description {
+                    top: 85.5vh;
+
+                    p,
+                    a,
+                    button {
+                      line-height: 1.5rem;
                       //font-size: 2rem;
                       @include set-fontsize(xs);
-                     
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      @include respond-below_height(s) {
+        main .content {
+          .app {
+            ul {
+              li {
+                &.start-item {
+                  .start-wrapper {
+                    .start-text {
+                      p {
+                        svg {
+                          margin-bottom: -3.5%;
+                        }
+                      }
+                    }
+                  }
+                }
+
+                .wrapper {
+                  img {
+                    height: 80vh !important;
+
+                    &.product {
+                      border-width: 2.5rem;
+                    }
+                  }
+
+                  .description {
+                    top: 80.5vh;
+
+                    p,
+                    a,
+                    button {
+                      line-height: 1.5rem;
+                      //font-size: 2rem;
+                      @include set-fontsize(xxs);
                     }
                   }
                 }
@@ -656,18 +875,47 @@
       }
 
       @include respond-below_height(xs) {
-        body {
-          visibility: hidden;
-          opacity: 0;
+        .landscapemode {
+          visibility: visible;
+          animation: fadein 0.7s;
+          -moz-animation: fadein 0.7s;
+          /* Firefox */
+          -webkit-animation: fadein 0.7s;
+          /* Safari and Chrome */
+          -o-animation: fadein 0.7s;
+          /* Opera */
+          display: block !important;
+          position: fixed !important;
+          width: 100%;
+          height: 100%;
+          background: #424936;
+          z-index: 30;
+
+          .start-text {
+            max-width: 76%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 50%;
+            transform: translateX(-50%);
+
+            p {
+              color: white;
+            }
+          }
         }
 
         main .content {
+          display: none;
+
           .app {
             ul {
+              width: 2000vw;
+
               li {
                 .wrapper {
                   img {
-                    height: 85% !important;
+                    height: 100vh !important;
 
                     &.frame {
                       border-width: 1.5rem;
@@ -679,7 +927,8 @@
                   }
 
                   .description {
-                    top: 85%;
+                    display: none;
+                    top: 90.1vh;
 
                     p {
                       @include set-fontsize(xxs);

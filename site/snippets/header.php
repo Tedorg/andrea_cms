@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+<meta name="googlebot" content="noindex" />
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -22,6 +23,7 @@
     <button class="js-close">Dismiss</button>
             </div>
 <body class="hide">
+    <div class="mainwrapper">
     <div class="cover"></div>
     <header>
 

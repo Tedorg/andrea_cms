@@ -1,4 +1,0 @@
-Alt: an urushi image
-----
-
-Template: image
