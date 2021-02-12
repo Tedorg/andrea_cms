@@ -1,0 +1,17 @@
+Title: 51_Journal
+
+----
+
+Headline: 
+
+----
+
+Description: Uma, a device that helps, filter urushi.
+
+----
+
+Tags: 
+
+----
+
+Toggle: false

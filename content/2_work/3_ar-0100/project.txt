@@ -1,0 +1,21 @@
+Title: AR_0100
+
+----
+
+Headline: AR_0100
+
+----
+
+Toggle: true
+
+----
+
+Number: 1
+
+----
+
+Description: Salontable 1500 * 400 * 450mm. Oakwood. 1050.-CHF
+
+----
+
+Tags: salontable, table, oak, furniture

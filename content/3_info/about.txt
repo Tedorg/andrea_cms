@@ -1,0 +1,95 @@
+Title: Info
+
+----
+
+Images:
+
+- workshop.jpg
+
+----
+
+Texta:
+
+**About my Work
+**My urushiware and furniture is made from regional wood. The materials used on the urushiware are all natural and mostly unrefined. There are no chemicals or synthetics involved in the process.
+The idea of my urushiware is to create something that lasts a long time, is eco friendly and can be repaired if needed. Making a cup or a bowl takes a long time, as I work in small series and try to work as careful as I can to ensure the object lasts a lifetime or even longer.
+
+----
+
+Textb:
+
+**About Me
+**Hi there, I’m Andrea, born 1983. I live and work in St. Gallen Switzerland. I make objects and furniture from different materials but mostly from wood and urushi. In 2000 I started a 4 year long apprenticeship as a polymechanican. My first journey to Japan 2004 has awoken the interest in urushi and japanese furniture design. That was when it all started.
+
+----
+
+Textc:
+
+**About Urushi
+**Urushi lacquer is a sap from a tree (lat. rhus verniciflua). Through cutting the stem the sap can be collected. Afterwards, the raw lacquer needs to be filtered and refined. When refining the raw urushi, the only energy source is heat which reduces the water content. Urushi hardens or cures at a humidity of 70-80% and a temperature between 20-25 degrees celsius. When cured, urushi withstands high temperatures and nearly all acids. It has antibacterial properties and is perfectly food safe.
+
+----
+
+Textd:
+
+**My Studio and Showroom
+**Since 2020 I have a new Studio in St. Gallen wich includes a small gallery. It is located at Moosbruggstrasse 25 and is 7 minutes away by foot from the mainstation. If you like to visit me or have a look, please send me an Email: info@andrearueeger.ch
+
+----
+
+Texte:
+
+**How to order
+**You like something you see and want to order it? Please send me an Email to: (link: mailto:info@andrearueeger.ch text: info@andrearueeger.ch)
+Please note the Serial Number for ex. AR-01 012 in the mail, it helps to avoid mistakes and makes it easier to distinguish. I ship all over the world. shippingfees are based on the swisspost fees. Shipping overseas is usually 20 - 30 USD. If you have any questions please feel free to ask.
+
+----
+
+Address:
+
+**Address
+**Andrea Rüeger, Ekkehardstrasse 4, 9000 St.Gallen
+
+----
+
+Email: info@andrearueeger.ch
+
+----
+
+Phone: 079 264 87 50
+
+----
+
+Social:
+
+- 
+  platform: Instagramm
+  url: >
+    https://www.instagram.com/andrea_rueeger/?hl=en
+
+----
+
+Text:
+
+**About Urushi
+**
+Urushi lacquer is a sap from a tree (lat. rhus verniciflua). Through cutting the stem the sap can be collected. Afterwards, the raw lacquer needs to be filtered and refined. When refining the raw urushi, the only energy source is heat which reduces the water content. Urushi hardens or cures at a humidity of 70-80% and a temperature between 20-25 degrees celsius. When cured, urushi withstands high temperatures and nearly all acids. It has antibacterial properties and is perfectly food safe.
+
+**About my Work
+**
+My urushiware and furnitures are made from regional wood. The materials used on the urushiware are all natural and mostly unrefined. There are no chemicals or synthetics involved in the process.
+The idea of my urushiware is to create something that lasts a long time, is eco friendly and can be repaired if needed. Making a cup or a bowl takes a long time, as I work in small series and try to work as careful as I can to ensure the object lasts a lifetime or even longer.
+
+
+**About Me
+**
+Hi there, I’m Andrea, born 1983. I live and work in St. Gallen Switzerland. I make objects and furniture from different materials but mostly from wood and urushi. In 2000 I started a 4 year long apprenticeship as a Polymechanican. My first journey to Japan 2004 has awoken the interest in Urushi and Japanese furniture design. That was when it all started.
+
+----
+
+Contact:
+
+Kirby Magazine Inc.
+Sesamestreet 1
+Gotham City
+USA

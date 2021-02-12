@@ -1,0 +1,62 @@
+.modal {
+  position: fixed;
+  height: 50%;
+  width: 50%;
+  left: 50%;
+  top: 50%;
+  background-color: #fff;
+  padding: 2em 3em;
+  text-align: center;
+  border-radius: .5em;
+  display: none;
+  z-index: 10;
+
+  &.is-active {
+    display: block;
+  }
+}
+
+.modal-image {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #48DB71;
+  padding: 11px 10px 2px;
+  margin-bottom: 2em;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+p {
+  margin-bottom: 2em;
+  color: #666;
+}
+
+.btn-open {
+  display: none;
+
+  &.is-active {
+    display: block;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

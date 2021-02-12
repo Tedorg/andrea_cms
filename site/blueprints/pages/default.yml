@@ -1,0 +1,12 @@
+title: Default Page
+preset: page
+fields:
+  text:
+    label: Text
+    type: textarea
+    size: large
+  text:
+    label: Test
+    type: textarea
+    size: small
+      

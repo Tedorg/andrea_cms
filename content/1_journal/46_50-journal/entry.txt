@@ -1,0 +1,17 @@
+Title: 50_Journal
+
+----
+
+Headline: 
+
+----
+
+Description: Nuno Kise on a Bentobox.
+
+----
+
+Tags: 
+
+----
+
+Toggle: false

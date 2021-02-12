@@ -1,0 +1,16 @@
+title: Journal
+
+
+# Here we extend two sections which are defined in `/site/blueprints/sections/albums.yml`
+# They differ in their page status and the headline.
+sections:
+  drafts:
+    extends: sections/entries
+    headline: Drafts
+    status: draft
+
+  listed:
+    extends: sections/entries
+    headline: Published Projects
+    status: listed
+    info: "{{ page.images.count }} image(s)"

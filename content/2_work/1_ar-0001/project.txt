@@ -1,0 +1,21 @@
+Title: AR_0001
+
+----
+
+Headline: AR_0001
+
+----
+
+Toggle: false
+
+----
+
+Number: 6
+
+----
+
+Description: Cup. D 75mm * H 95mm. Elmwood, reinforced with linen cloth. Nuritatefinish. 160.-CHF
+
+----
+
+Tags: 

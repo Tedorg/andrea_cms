@@ -1,0 +1,17 @@
+Title: 45_Journal
+
+----
+
+Headline: 
+
+----
+
+Description: Gallery and Studio at Moosbruggstrasse 25 in St. Gallen, Switzerland
+
+----
+
+Tags: 
+
+----
+
+Toggle: false

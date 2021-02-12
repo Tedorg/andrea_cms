@@ -1,0 +1,21 @@
+Title: AR_0101
+
+----
+
+Headline: AR_0101
+
+----
+
+Toggle: true
+
+----
+
+Number: 1
+
+----
+
+Description: Tableframe L 1500 * W 700 * H 720mm. Oakwood. 900.-CHF
+
+----
+
+Tags: 
