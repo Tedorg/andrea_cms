@@ -5,6 +5,17 @@
   </div>
 </div>
 <div class="content">
+  <div class="index">
+<div class="grid">
+   <?php foreach ($projects as $project): ?>
+    <?php foreach ($project->images() as $image): ?>
+      <div class="item">
+        <?=$image->thumb()?>
+      </div>
+        <?php endforeach;?>
+<?php endforeach;?>
+</div>
+  </div>
 <div class="app">
   <div class="full hide-scroll">
     <ul class="work hs container" style="list-style-type:none">

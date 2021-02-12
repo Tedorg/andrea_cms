@@ -174,13 +174,13 @@
           transform: translateY(-50%);
           margin-left: 5px;
           height: auto;
+          display: flex;
 
           svg {
-            margin-top: 0.33rem;
-            margin-left: 5px;
-            margin-right: 5px;
+            //height: 7rem;
+            margin: auto 5px;
             height: 1.1rem;
-            width: auto
+            width: auto;
           }
 
           a:after {
@@ -446,9 +446,37 @@
     main .content {
       display: block;
 
+      .index {
+        width: 100vw;
+        height: 100vw;
+        display: block;
+        margin: 0 auto;
+        background-color: red;
+
+        .grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+          //column-gap: 5rem;
+          .item {
+            background: white;
+            position: relative;
+            padding: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+              max-width: 100%;
+              max-height: 100%;
+            }
+          }
+        }
+      }
+
       .app {
         width: 100%;
-        display: block;
+        display: none;
         margin: 0 auto;
 
         ul {

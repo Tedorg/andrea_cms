@@ -151,6 +151,8 @@ function handler_scroll() {
     scrollConverter.deactivate();
   }
 }
+
+function handle_index() {}
 var to1 = true,
   throttle1 = function(func, delay) {
     if (to1) {
