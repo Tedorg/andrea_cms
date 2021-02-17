@@ -41,13 +41,19 @@
                 <!-- <a id="display"></a> -->
             </nav>
             <div class="menu-list">
-                <button class="js-open btn-open is-active"></button>
+                <a href="#" class="index_button">Index</a>
             </div>
         </div>
 
     </header>
 
     <main>
+        <div class="landscapemode">
+  <div class="start-text">
+
+     <?=svg('assets/logo/Andrea_Rueeger_Symbol-01.svg')?>
+  </div>
+</div>
 
 
 

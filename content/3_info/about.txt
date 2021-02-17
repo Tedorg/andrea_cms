@@ -63,7 +63,7 @@ Phone: 079 264 87 50
 Social:
 
 - 
-  platform: Instagramm
+  platform: Instagram
   url: >
     https://www.instagram.com/andrea_rueeger/?hl=en
 

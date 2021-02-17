@@ -5,6 +5,7 @@ hasClass = (elem, className) => {
 // toggleClass
 exports.toggleClass = (elem, className) => {
   var newClass = ' ' + elem.className.replace(/[\t\r\n]/g, ' ') + ' ';
+  console.log(elem.className)
   if (hasClass(elem, className)) {
     while (newClass.indexOf(' ' + className + ' ') >= 0) {
       newClass = newClass.replace(' ' + className + ' ', ' ');
@@ -37,4 +38,3 @@ exports.select = (selector) => {
     }
   }
 }
-

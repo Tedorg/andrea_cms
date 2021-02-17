@@ -46,6 +46,9 @@
   <article class="item">
   <div class="text">
        <?=$page->address()->kt()?><?=$page->email()->kt()?><?=$page->phone()->kt()?>
+ <?php foreach ($page->social()->toStructure() as $social): ?>
+            <li><?=html::a($social->url(), $social->platform())?></li>
+            <?php endforeach?>
           </div>
   </article>
 

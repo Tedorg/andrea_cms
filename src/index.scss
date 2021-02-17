@@ -168,6 +168,7 @@
         width: 100%;
         mix-blend-mode: difference; //hard-light; //luminosity; //;
 
+        //mix-blend-mode: luminosity; //;
         nav {
           position: absolute;
           top: 50%;
@@ -179,7 +180,9 @@
           svg {
             //height: 7rem;
             margin: auto 5px;
-            height: 1.1rem;
+            //height: 1.2rem;
+            // @include set-fontsize(xs);
+            height: 0.7rem;
             width: auto;
           }
 
@@ -193,8 +196,9 @@
 
           a {
             margin-right: 0.55rem;
-            @include set-fontsize(md);
-            color: B1C4C4;
+            @include set-fontsize(s);
+            color: #B1C4C4;
+            //color: #4e3b3b;
           }
 
           a.active {
@@ -210,18 +214,16 @@
 
         .menu-list {
           width: auto;
-          border-radius: 10px;
           position: absolute;
-          right: 3px;
+          right: 1%;
           top: 50%;
           transform: translateY(-50%);
           height: auto;
 
-          button {
-            @include set-fontsize(md);
-            background: none;
-            border: none;
-            color: black;
+          a {
+            @include set-fontsize(s);
+            //color: B1C4C4;
+            color: #4e3b3b;
           }
         }
       }
@@ -378,6 +380,29 @@
       }
     }
 
+    main .glossar {
+      display: block;
+      height: 100%;
+      width: 100%;
+
+      .wrapper {
+        position: absolute;
+        top: 5%;
+        margin: 0 10px;
+        -webkit-columns: 4 150px;
+        -moz-columns: 4 150px;
+        columns: 4 150px;
+        -webkit-column-gap: 2em;
+        -moz-column-gap: 2em;
+        column-gap: 2em;
+        height: fit-content;
+
+        p {
+          text-align: justify;
+        }
+      }
+    }
+
     main .content {
       display: block;
       height: 90vh;
@@ -417,6 +442,14 @@
                 @include set-fontsize(sm);
               }
 
+              li {
+                list-style: none;
+
+                a {
+                  font-weight: bold;
+                }
+              }
+
               a,
               p {
                 margin: 0;
@@ -449,26 +482,51 @@
       .index {
         width: 100vw;
         height: 100vw;
-        display: block;
+        display: none;
         margin: 0 auto;
-        background-color: red;
 
+        &.show {
+          //visibility: visible;
+          display: block;
+          animation: fadein 1.5s;
+          -moz-animation: fadein 1.5s;
+          /* Firefox */
+          -webkit-animation: fadein 1.5s;
+          /* Safari and Chrome */
+          -o-animation: fadein 1.5s;
+          /* Opera */
+        }
+
+        //background-color: red;
         .grid {
           display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
 
           //column-gap: 5rem;
           .item {
-            background: white;
             position: relative;
             padding: 20%;
             display: flex;
             justify-content: center;
             align-items: center;
 
-            img {
-              max-width: 100%;
-              max-height: 100%;
+            .container {
+              background: grey;
+
+              img {
+                display: block;
+                max-width: 100%;
+                max-height: 100%;
+              }
+
+              p {
+                @include set-fontsize(xxs);
+                margin-top: 20px;
+                max-width: 100%;
+                display: block;
+                position: absolute;
+                bottom: 0;
+              }
             }
           }
         }
@@ -476,8 +534,20 @@
 
       .app {
         width: 100%;
-        display: none;
         margin: 0 auto;
+        display: none;
+
+        &.show {
+          //visibility: visible;
+          display: block;
+          animation: fadein 10.5s;
+          -moz-animation: fadein 1.5s;
+          /* Firefox */
+          -webkit-animation: fadein 1.5s;
+          /* Safari and Chrome */
+          -o-animation: fadein 1.5s;
+          /* Opera */
+        }
 
         ul {
           padding-bottom: 30px;
@@ -591,9 +661,62 @@
       position: relative;
     }
 
+    @include respond-above(s) {
+      body {
+        header {
+          .header-wrapper {
+            nav {
+              svg {
+                //height: 7rem;
+                margin: auto 5px;
+                //height: 1.2rem;
+                // @include set-fontsize(xs);
+                height: 0.9rem;
+                width: auto;
+              }
+
+              a {
+                margin-right: 0.55rem;
+                @include set-fontsize(sm);
+              }
+            }
+
+            .menu-list {
+              a {
+                @include set-fontsize(sm);
+              }
+            }
+          }
+        }
+      }
+    }
+
     @include respond-above(sm) {
       body {
-        // overflow-x: hidden;
+        header {
+          .header-wrapper {
+            nav {
+              svg {
+                //height: 7rem;
+                margin: auto 5px;
+                //height: 1.2rem;
+                // @include set-fontsize(xs);
+                height: 1.15rem;
+                width: auto;
+              }
+
+              a {
+                @include set-fontsize(md);
+              }
+            }
+
+            .menu-list {
+              a {
+                @include set-fontsize(md);
+              }
+            }
+          }
+        }
       }
 
       main .about {
@@ -612,6 +735,18 @@
       main .content {
         position: absolute;
         height: 100%;
+
+        .index {
+          width: 100vw;
+          height: 100vw;
+          display: none;
+          margin: 0 auto;
+
+          .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          }
+        }
 
         .app {
           position: absolute;
@@ -702,11 +837,11 @@
                 .description {
                   display: block;
                   top: 95.2vh;
-                  left: 0rem;
+                  left: 0.2rem;
                   position: absolute;
-                  margin: 0;
                   height: auto;
                   padding: 0;
+                  width: 95%;
 
                   &.textnotvisible {}
 
@@ -727,24 +862,19 @@
       }
 
       @include respond-below_height(lg) {
-        header {
-          .header-wrapper {
-            nav {
-              a {
-                margin-right: 0.55rem;
-                @include set-fontsize(md);
-                color: B1C4C4;
-              }
-            }
 
-            .menu-list {
-              right: 3px;
-
-              button {}
-            }
-          }
-        }
-
+        // header {
+        //   .header-wrapper {
+        //     nav {
+        //       a {
+        //         margin-right: 0.55rem;
+        //         @include set-fontsize(md);
+        //         color: B1C4C4;
+        //       }
+        //     }
+        //     .menu-list {}
+        //   }
+        // }
         main .content {
           .app {
             ul {
@@ -787,24 +917,24 @@
       }
 
       @include respond-below_height(md) {
-        header {
-          .header-wrapper {
-            nav {
-              a {
-                margin-right: 0.55rem;
-                @include set-fontsize(md);
-                color: B1C4C4;
-              }
-            }
 
-            .menu-list {
-              right: 3px;
-
-              button {}
-            }
-          }
-        }
-
+        // header {
+        //   .header-wrapper {
+        //     nav {
+        //       a {
+        //         margin-right: 0.55rem;
+        //         @include set-fontsize(md);
+        //         color: B1C4C4;
+        //       }
+        //     }
+        //     .menu-list {
+        //       a {
+        //         @include set-fontsize(md);
+        //         color: B1C4C4;
+        //       }
+        //     }
+        //   }
+        // }
         main .content {
           .app {
             ul {
@@ -942,13 +1072,17 @@
           .start-text {
             max-width: 76%;
             position: absolute;
-            top: 50%;
+            top: 45%;
             transform: translateY(-50%);
             left: 50%;
             transform: translateX(-50%);
 
             p {
               color: white;
+            }
+
+            svg {
+              width: 3rem;
             }
           }
         }

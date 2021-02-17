@@ -1,20 +1,31 @@
 <?php snippet("header");?>
-<div class="landscapemode">
-  <div class="start-text">
-    <p><?=$home->headline()?></p>
-  </div>
+
+
+<div class="content has_index">
+    <div class="index">
+<div class="grid">
+   <?php foreach ($projects as $project): ?>
+    <?php foreach ($project->images() as $image): ?>
+      <div class="item">
+<div class="container">
+  <img class="lazyload"srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="data-srcset="<?=$image->srcset('cover')?>" />
+  <p><?=$project->headline()?></p>
 </div>
 
-<div class="content">
-<div class="app">
+      </div>
+        <?php endforeach;?>
+<?php endforeach;?>
+</div>
+  </div>
+<div class="hs app show">
   <div class="full hide-scroll">
-    <ul class="hs" style="list-style-type:none">
+    <ul class="" style="list-style-type:none">
     <li class="start-item block">
         <div class="start-wrapper">
 
 
           <div class="start-text"><p><?=$home->headline()?>
-            <?=svg('assets/logo/Andrea_Rueeger_Symbol-01.svg')?>
+
 
           <?=$home->text()?></p> </div>
 

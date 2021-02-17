@@ -1,24 +1,24 @@
 <?php snippet("header");?>
-<div class="landscapemode">
-  <div class="start-text">
-    <p><?=$home->headline()?></p>
-  </div>
-</div>
-<div class="content">
+
+<div class="content has_index">
   <div class="index">
 <div class="grid">
    <?php foreach ($projects as $project): ?>
     <?php foreach ($project->images() as $image): ?>
       <div class="item">
-        <?=$image->thumb()?>
+<div class="container">
+  <img class="lazyload"srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="data-srcset="<?=$image->srcset('cover')?>" />
+  <p><?=$project->headline()?></p>
+</div>
+
       </div>
         <?php endforeach;?>
 <?php endforeach;?>
 </div>
   </div>
-<div class="app">
+<div class="hs app show">
   <div class="full hide-scroll">
-    <ul class="work hs container" style="list-style-type:none">
+    <ul class="work  container" style="list-style-type:none">
 
   <?php foreach ($projects as $project): ?>
     <?php foreach ($project->images() as $image): ?>

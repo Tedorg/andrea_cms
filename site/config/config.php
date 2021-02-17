@@ -31,9 +31,20 @@ return [
 
     "thumbs"  => [
         "srcsets" => [
+            'cover'       => [
+                '400w'  => ['width' => 200, 'quality' => 80],
+                '600w'  => ['width' => 300, 'quality' => 80],
+                '800w'  => ['width' => 400, 'quality' => 80],
+                '1200w' => ['width' => 500, 'quality' => 80],
+            ],
             "default"     => [320, 1200],
             "breakpoints" => [576, 768, 992, 1200],
         ],
+        'presets' => [
+            'default' => ['width' => 400, 'quality' => 80],
+            'blurred' => ['blur' => false],
+        ],
+
     ],
     'session' => [
         'durationNormal' => 7200, // default: 2 hours

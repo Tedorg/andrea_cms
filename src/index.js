@@ -93,6 +93,24 @@ document.addEventListener("readystatechange", () => {
     console.log(typeof HorizontalScroll == "undefined")
   }
 });
+const index_button = select(".index_button")
+const app = select(".app")
+const index = select(".index")
+index_button.addEventListener("click", () => {
+  console.log("clicked")
+  handle_index_view();
+})
+detect_hasindex()
+
+function handle_index_view() {
+  toggleClass(index, "show")
+  toggleClass(app, "hs")
+  toggleClass(index_button, "active")
+  toggleClass(app, "show")
+  detectHscroll()
+  handler_scroll()
+  //
+}
 
 function detectOrientation() {
   !navigator.maxTouchPoints ? 'desktop' : !window.screen.orientation.angle ? 'portrait' : 'landscape'
@@ -113,9 +131,19 @@ function detectHscroll() {
   var target = document.querySelector(".hs");
   if (target !== null) {
     page_for_hs_scroll = true;
-    //console.log("target: " + target)
   } else {
     page_for_hs_scroll = false;
+  }
+}
+
+function detect_hasindex() {
+  var target = select(".has_index")
+  if (target !== null) {
+    index_button.style.display = "block";
+    console.log("target: " + target)
+  } else {
+    index_button.style.display = "none";
+    console.log("target: " + target)
   }
 }
 window.onload = function() {

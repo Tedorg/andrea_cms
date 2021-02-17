@@ -1,1 +1,9 @@
 Title: Error
+
+----
+
+Intro: The page could not be found.
+
+----
+
+Text: Well, stuff can go wrong sometimes and maybe you mistyped a URL.
