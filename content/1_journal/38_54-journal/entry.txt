@@ -1,0 +1,17 @@
+Title: 54_Journal
+
+----
+
+Headline: 
+
+----
+
+Description: Red café cups curing in the furo.
+
+----
+
+Tags: 
+
+----
+
+Toggle: false

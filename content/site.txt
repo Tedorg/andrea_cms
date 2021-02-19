@@ -1,8 +1,13 @@
-Title: Andrea Ruegger 
+Title: Andrea Rüeger
+
 ----
-TitleMobile: Andrea Ruegger
+
+Titlemobile: Andrea Ruegger
+
 ----
-email: info@andrearuegger.ch
+
+Email: info@andrearuegger.ch
+
 ----
+
 Copyright: copyright@2020
-----

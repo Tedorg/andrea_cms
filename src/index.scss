@@ -222,8 +222,8 @@
 
           a {
             @include set-fontsize(s);
-            //color: B1C4C4;
-            color: #4e3b3b;
+            color: #B1C4C4;
+            //color: #4e3b3b;
           }
         }
       }
@@ -382,20 +382,23 @@
 
     main .glossar {
       display: block;
-      height: 100%;
-      width: 100%;
+      position: fixed;
+      overflow-y: scroll;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
 
       .wrapper {
         position: absolute;
-        top: 5%;
+        top: 2.5rem;
         margin: 0 10px;
         -webkit-columns: 4 150px;
         -moz-columns: 4 150px;
         columns: 4 150px;
-        -webkit-column-gap: 2em;
-        -moz-column-gap: 2em;
-        column-gap: 2em;
-        height: fit-content;
+        -webkit-column-gap: 1em;
+        -moz-column-gap: 1em;
+        column-gap: 1em;
 
         p {
           text-align: justify;
@@ -410,15 +413,19 @@
 
     main .about {
       display: block;
-      z-index: 0;
+      position: fixed;
+      overflow-y: scroll;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
 
       .wrapper {
         position: absolute;
-        top: 1%;
-        //@debug: translateY(-50%);
-        height: 69vh;
-        margin: 5px;
+        top: 1rem;
+        margin: 0 10px;
 
+        //@debug: translateY(-50%);
         .grid {
           display: grid;
           grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -438,16 +445,12 @@
               margin-top: 1.5rem;
 
               h2 {
-                color: rgba(125, 125, 125, 1);
-                @include set-fontsize(sm);
+                // color: rgba(125, 125, 125, 1);
+                // @include set-fontsize(sm);
               }
 
               li {
                 list-style: none;
-
-                a {
-                  font-weight: bold;
-                }
               }
 
               a,
@@ -455,7 +458,7 @@
                 margin: 0;
 
                 strong {
-                  font-family: neue-haas-grotesk-display, sans-serif;
+                  //font-family: neue-haas-grotesk-display, sans-serif;
                 }
 
                 white-space: pre-wrap;
@@ -505,7 +508,7 @@
           //column-gap: 5rem;
           .item {
             position: relative;
-            padding: 20%;
+            margin: 1%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -526,6 +529,7 @@
                 display: block;
                 position: absolute;
                 bottom: 0;
+                left: 18.3%;
               }
             }
           }

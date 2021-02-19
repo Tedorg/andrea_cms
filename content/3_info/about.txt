@@ -2,9 +2,7 @@ Title: Info
 
 ----
 
-Images:
-
-- workshop.jpg
+Images: - laden.jpg
 
 ----
 
@@ -33,7 +31,8 @@ Textc:
 Textd:
 
 **My Studio and Showroom
-**Since 2020 I have a new Studio in St. Gallen wich includes a small gallery. It is located at Moosbruggstrasse 25 and is 7 minutes away by foot from the mainstation. If you like to visit me or have a look, please send me an Email: info@andrearueeger.ch
+**Since 2020 I have a new Studio in St. Gallen wich includes a small gallery. It is located at Moosbruggstrasse 25 and is 7 minutes away by foot from the mainstation. If you like to visit me or have a look, please send me an Email: 
+(email: info@andrearueeger.ch text: info@andrearueeger.ch)
 
 ----
 
@@ -48,7 +47,7 @@ Please note the Serial Number for ex. AR-01 012 in the mail, it helps to avoid m
 Address:
 
 **Address
-**Andrea Rüeger, Ekkehardstrasse 4, 9000 St.Gallen
+**Andrea Rüeger, Moosbruggstrasse 25, 9000 St.Gallen
 
 ----
 

@@ -1,14 +1,14 @@
 <?php snippet("header");?>
 
 
-<div class="content has_index">
+<div class="content">
     <div class="index">
 <div class="grid">
    <?php foreach ($projects as $project): ?>
     <?php foreach ($project->images() as $image): ?>
       <div class="item">
 <div class="container">
-  <img class="lazyload"srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="data-srcset="<?=$image->srcset('cover')?>" />
+  <img class="lazyload"data-sizes="auto" src="" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="data-srcset="<?=$image->srcset('cover')?>" />
   <p><?=$project->headline()?></p>
 </div>
 

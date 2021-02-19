@@ -7,7 +7,7 @@
     <?php foreach ($project->images() as $image): ?>
       <div class="item">
 <div class="container">
-  <img class="lazyload"srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="data-srcset="<?=$image->srcset('cover')?>" />
+  <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="data-srcset="<?=$image->srcset('cover')?>" data-parent-fit="contain" />
   <p><?=$project->headline()?></p>
 </div>
 

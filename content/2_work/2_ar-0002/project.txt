@@ -10,11 +10,7 @@ Toggle: false
 
 ----
 
-Number: 6
-
-----
-
-Description: Cup. D 75mm * H 95mm. Elmwood, reinforced with linen cloth. Sprinkled Jinoko surfacefinish outside. Nuritatefinish inside.  160.-CHF
+Description: Cup. D75 / H90. Chestnutbase. Reinforced with linencloth. Nuritate finish inside and outside. Red colored urushi / natural urushi. 160.- CHF
 
 ----
 

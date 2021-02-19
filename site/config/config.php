@@ -25,11 +25,12 @@ return [
     'debug'   => false,
     'cache'   => [
         'pages' => [
-            'active' => false,
+            'active' => true,
         ],
     ],
 
     "thumbs"  => [
+
         "srcsets" => [
             'cover'       => [
                 '400w'  => ['width' => 200, 'quality' => 80],

@@ -2,7 +2,11 @@ Title: 52_Journal
 
 ----
 
-Description: 
+Headline: 
+
+----
+
+Description: Wooden oak bases for upcoming espresso cups.
 
 ----
 

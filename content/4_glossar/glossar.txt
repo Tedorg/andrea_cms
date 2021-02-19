@@ -7,52 +7,6 @@ Text:
 **A**
 Age-nuri
 Lit. upper painting. The upper layers of lacquer typically in reference to the Tsugaru-nuri techniques. See also: uwa-nuri.
-Ai
-Indigo dye obtained from the Japanese indigo plant, Polygonum tinc- torium. The dye was used to color urushi as well as to dye the yellow shioh pigment green. See also: ao-urushi, iro-urushi, pigments, seishitsu
-Ai-same - Lit. blue shark (stingray). See same-nuri
-Aizu-nuri
-The name for lacquerware originating from Aizu, Fukushima prefecture in Japan. Aizu is well known for their hana-nuri finishes as well as their maki-e.
-Aji
-Lit. taste. The softened quality that lacquer attains over time, similar in idea to patina on metal. As on metal, sometimes the effect is imitated in lacquer. See also: negoro-nuri
-Aka-fun
-Lit. red powder. A mixture of shu (vermilion) and metal powder used in various lacquer techniques.
-Akakuchihonshu - an intense orangy- red color. Akarui-shû - A bright shade red lacquer.
-Akarui-shû-nuri:
-Coating with red lacquer of bright red shade.
-Akebono-nuri
-Lit. dawn painting. Also bokashi-nuri, a technique of applying colored lacquer in a smooth transition from one color to another. Although other colors may be used, typically a red-black or red-yellow gradation is used. See also: bokashi
-Amani-yu
-Lit. Linseed oil. Linseed oil is a drying oil used as a modern replacement for perilla oil for making hana-urushi.
-Ao
-The color blue or green. Although there is a separate word for green, midori, when speaking of certain things, lacquer traditionally included, blue and green are combined into one word e.g. ao-zora (blue
-sky), aoi yasai (green vegetables)
-Aogai
-Lit. blue/green shell. The blue and green iridescent shells from various species of abalone (Haliotis spp.) used typically used in raden as usu- gai or kenma. It is also frequently sprinkled as on as small fragments or powders in a raden technique called mijingai-nuri. See also: awabi
-Aokin-fun
-Lit. blue gold powder. A mixture of gold and silver powders, applied either mixed or in alternation to give a paler, more restrained gold color to maki-e. See also: gin, kin
-Ao-urushi
-Lit. blue/green lacquer. Also read as seishitsu. A blue or green lacquer traditionally created by mixing ai or shioh died with ai into suki-urushi to create blue or green respectively. In modern formulations, modern synthetic pigments such as phthalocyanine or chromium oxide can be used. See also: iro-urushi
-Ao-urushi-nuri
-Lit. blue lacquer painting. The lacquer technique of applying blue uru- shi. The technique is essentially the same is roiro-nuri except for the use of colored urushi for the upper layers. See also: udo-nuri
-Ara-tsune
-Lit. coarse common. The coarsest of the metal powders used for maki-e.
-Arami-urushi
-The unprocessed sap taken straight from the lacquer tree. At this point it is a milky white liquid that cannot be used as lacquer without further processing. The sap is filtered and left to sit for an extended period of time to allow partial oxidation as well as evaporation of some of the water content. Once the liquid reaches the proper water content and oxidization levels, it can be used as lacquer and is then called kiurushi.
-Asuka period 592-710
-Ashi
-Lit. Lgs, The lines left back on the lacquer surface from the brush
-Ashide-e
-A term referring to lacquer objects with calligraphic ornamentation inter- spersed within a pictorial design.
-Atsugai
-Lit. thick shell. See raden Aventurine lacquer - A term once used in Eu- rope to refer to nashiji-nuri; cf. aventurine glass.
-Awabi
-Lit. abalone. Also awabi-gai. Scientientific classification Haliotis madaka or Haliotis gigantea, Haliotis spp. The Japanese name for two species of abalone native to the waters of Korea and Japan, whose nacre is frequently used in raden.
-The nacre from these species of abalone exhibit an attractive iridescen- se with colors from a wide range of the visible spectrum, with none of the distinctive dark banding distinctive to most other species of abalone. It is used primarily in thin sheets called usugai and kenma. Occasionally the term is used for any and all species of abalone although more often when referring to abalone as a food-source. See also: ao-gai, mijingai- nuri
-Awakeshi
-The process to transfer freshly collected sap into raw lacquer. Shibugami paper is used to cover containers filled with freshly collected sap. Once a day the shibugami is disengaged from the sap to remove foam. The sap is exposed to air and gradually matures into raw lacquer
-Aware
-The Asian concept of impermanence has also given rise to a certain Japanese aesthetic ideal called aware. Aware amounts to a moment, circumstance, or happening, which arouses an deep, “sentimental me- lancholy.” In Japanese poetry, it’s often associated with autumn and the impermanence of the relative world. That this is seen as a desirable quality, in contrast to how Westerners sometimes view the transient cha- racter of nature, is an sign of the uniqueness of Japanese art.
-Awatsubu-nuri - Lit. millet painting. See nanako-nuri
 
 **B**
 Bachiru
@@ -63,9 +17,87 @@ Bakumatsu era
 (1853−1867) — the last era of the Edo Period in 19th century Japan.
 Beni
 The Japanese name for carthamin, a red pigment derived from safflo- wer, Carthamus tinctorius. It is also the name for the color crimson. See also: bengara, iro-urushi, pigments, shu
-Benigara - See bengara
-Bengara
-Also benigara, a traditional reddish-brown to brownish-violet pigment used with urushi. It is traditionally derived from clay and earth, and the natural form will never be pure in its composition. The main constituent is Iron (III) Oxide, Fe2O3. Also known as: Red Iron Oxide, Red Earth, Mars
+
+**C**
+Camphor oil - See shono-yu Cashew lacquer - See kashu Charcoal - See sumi
+Chashitsu
+(literally „tea rooms“) in Japanese tradition is an architectural space de- signed to be used for tea ceremony (chanoyu) gatherings.
+Chibi
+
+**D**
+Daitai-bori
+Lit. outline carving. An atsugai-raden technique where the substrate is carved to inlay thick shell pieces. See also: raden
+Dakkanshitsu - see dakkatsu-kanshitsu
+
+**E**
+Ebonite
+Also hard rubber and vulcanite. A hard rubber produced by vulcanizing rubber for prolonged periods until it contains about 30%-40% sulfur. It is frequently used for writing instruments intended for lacquering. See also: laconite
+Eda-urushi - Lit. branch lacquer. See ki-urushi
+Edo period.
+
+**F**
+Fude
+Lit. brush. A round brush used for drawing or writing. In reference to urushi, it refers to brushes that are used for drawing or laying the ground for maki-e as opposed to a hake, which are used for laying down flat layers of lacquer. See also: jinuri-fude, maki-e-fude
+Fuga
+describes a refined mode of living, and it’s essentially the same as furyu.
+
+**G**
+Gatame
+Alternate reading for katame when preceeded by a descriptor e.g. kiji- gatame.
+
+**H**
+Habutae-tatake
+Lit. habutae (type of silk textile) impression. Lacquerware in which the surface shows the imprint of the silk textile, habutae.
+Hacho
+
+**J**
+Japanese Sumac - Another name for the Lacquer tree. See urushi-no-ki
+Japanning
+
+**K**
+Kabazaiku
+(literally „birch craftsmanship“) is the traditional Japanese art of fashio- ning tea boxes, smoking accessories, and other woodworks out of the bark of a cherry tree.
+Kaiôsei - Neptune „Neptune was the king of the sea“
+
+**L**
+Linseed Oil - See amani-yu
+
+**M**
+Lit. uneven pear ground. Nashiji with unevenly applied metal powder. See nashiji.
+Murasaki ji - This is a purple-lacquer coating. Muro - Lit. room. See furo
+
+**N**
+Nacre - Mother of Pearl. The pearlescent and/or iridescent inner lining of many mullosk shells composed of aragonite microcrystals in a protein matrix. See raden.
+
+**O**
+Òhaguro Urushi/Shôen-Urushi
+(ha = Teeth, Guro/kuro = black) urushi mixed with lamp sooth. Lamp sooth or lamp black is also used to make ink. Black Lacquer pigmen- ted with lamp sooth was traditionally used only for high quality lacquer work. For regular work the so called „roiro-urushi“ is used, a transparent lacquer that was toned black with iron sulfates. The „ohaguro-urushi“ will stay jet black for ever. the „roiro-urushi“ will turn brownish with the time.
+Okashi
+
+**R**
+Raden - trochus turbo halotis nautilus
+Rankaku-nuri
+The use of eggshells as an inlay material. After removing the inner membrane of the eggshell, it is pressed into mugi-urushi or nori-urushi, crushing it into small pieces with the finger. After curing, the eggshell fragments are layered over with lacquer then polished smooth to reveal the shell fragments again.
+Rantai - A body made of bamboo
+Rei-hoko
+To work for one‘s master for one year at a salary lower than the normal rate on completion of the apprenticeship in thanks for the training
+Rhus verniciflua
+Also Rhus vernicifera. The old scientific classification for the lacquer tree, Toxicodendron vernicifluum. Rhus is the genus name for various species of sumac which was what the lacquer tree was once conside- red. However, more recently, it was found to have a closer relation to the Toxicodendron species including poison ivy, poison oak and poison sumac. See urushi no ki
+
+**S**
+Sabi - Lit. rust, patina. ground powder....
+Sabi-age-taka-maki-e
+Taka-maki-e which uses sabi as the method of creating the relief. it usu- ally has a higher relief than other methods.
+Japanese manual resist dyeing technique, which produces patterns on fabric
+Shibu
+Unripe persimmon juice. mixed with some seshime for ground prep.
+Shibugami
+Special paper used to cover containers with urushi
+
+**Z**
+Zanshin
+Remaining or lingering mind,“ sustaining a heightened state of aware- ness and mental follow-through
+Zenga
 
 ----
 
