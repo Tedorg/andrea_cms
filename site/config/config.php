@@ -25,27 +25,34 @@ return [
     'debug'   => false,
     'cache'   => [
         'pages' => [
-            'active' => true,
+            'active' => false,
         ],
     ],
 
     "thumbs"  => [
 
-        "srcsets" => [
-            'cover'       => [
-                '400w'  => ['width' => 200, 'quality' => 80],
-                '600w'  => ['width' => 300, 'quality' => 80],
-                '800w'  => ['width' => 400, 'quality' => 80],
-                '1200w' => ['width' => 500, 'quality' => 80],
+        'srcsets' => [
+            'default'      => [300, 600, 800, 1024],
+            'cover'        => [100, 200, 300],
+            'app'          => [
+                '400w'  => ['width' => 400, 'quality' => 80],
+                '560w'  => ['width' => 560, 'quality' => 80],
+                '800w'  => ['width' => 800, 'quality' => 80],
+                '1024w' => ['width' => 1024, 'quality' => 100],
+                '1440w' => ['width' => 1440, 'quality' => 100],
+                '2048w' => ['width' => 2048, 'quality' => 100],
             ],
-            "default"     => [320, 1200],
-            "breakpoints" => [576, 768, 992, 1200],
-        ],
-        'presets' => [
-            'default' => ['width' => 400, 'quality' => 80],
-            'blurred' => ['blur' => false],
-        ],
+            'low_qualitiy' => [
+                '400w'  => ['width' => 400, 'quality' => 10],
+                '560w'  => ['width' => 560, 'quality' => 10],
+                '800w'  => ['width' => 800, 'quality' => 10],
+                '1024w' => ['width' => 1024, 'quality' => 10],
+                '1440w' => ['width' => 1440, 'quality' => 10],
+                '2048w' => ['width' => 2048, 'quality' => 10],
+            ],
+            'index'        => [576, 768, 992, 1440, 1920, 2048],
 
+        ],
     ],
     'session' => [
         'durationNormal' => 7200, // default: 2 hours

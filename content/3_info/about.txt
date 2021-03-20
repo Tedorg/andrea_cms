@@ -1,4 +1,4 @@
-Title: Info
+Title: About
 
 ----
 
@@ -8,16 +8,16 @@ Images: - laden.jpg
 
 Texta:
 
-**About my Work
-**My urushiware and furniture is made from regional wood. The materials used on the urushiware are all natural and mostly unrefined. There are no chemicals or synthetics involved in the process.
+About my Work
+My urushiware and furniture is made from regional wood. The materials used on the urushiware are all natural and mostly unrefined. There are no chemicals or synthetics involved in the process.
 The idea of my urushiware is to create something that lasts a long time, is eco friendly and can be repaired if needed. Making a cup or a bowl takes a long time, as I work in small series and try to work as careful as I can to ensure the object lasts a lifetime or even longer.
 
 ----
 
 Textb:
 
-**About Me
-**Hi there, I’m Andrea, born 1983. I live and work in St. Gallen Switzerland. I make objects and furniture from different materials but mostly from wood and urushi. In 2000 I started a 4 year long apprenticeship as a polymechanican. My first journey to Japan 2004 has awoken the interest in urushi and japanese furniture design. That was when it all started.
+About Me
+Hi there, I’m Andrea, born 1983. I live and work in St. Gallen Switzerland. I make objects and furniture from different materials but mostly from wood and urushi. In 2000 I started a 4 year long apprenticeship as a polymechanican. My first journey to Japan 2004 has awoken the interest in urushi and japanese furniture design. That was when it all started.
 
 ----
 
@@ -31,8 +31,7 @@ Textc:
 Textd:
 
 **My Studio and Showroom
-**Since 2020 I have a new Studio in St. Gallen wich includes a small gallery. It is located at Moosbruggstrasse 25 and is 7 minutes away by foot from the mainstation. If you like to visit me or have a look, please send me an Email: 
-(email: info@andrearueeger.ch text: info@andrearueeger.ch)
+**Since 2020 I have a new Studio in St. Gallen wich includes a small gallery. It is located at Moosbruggstrasse 25 and is 7 minutes away by foot from the mainstation. If you like to visit me or have a look, please send me an Email: info@andrearueeger.ch
 
 ----
 

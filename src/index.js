@@ -24,6 +24,13 @@ import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 // //     window.scrollTo(0, dummy_x);
 // //   }
 // }
+console.log(component())
+if (component() == "Safari") {
+  const targetElement = document.querySelectorAll(".color_fix");
+  targetElement.forEach(function(item) {
+    item.classList.add("inverted_color")
+  })
+}
 // // Adjust the body height if the window resizes.
 // window.onresize = resize;
 // // Initial resize.
@@ -77,11 +84,12 @@ document.addEventListener("readystatechange", () => {
   }
   if (document.readyState == "complete") {
     var img = document.querySelectorAll("img");
+    var cover = document.querySelector(".blanket");
     var body = document.body;
     setTimeout(() => {
       //console.log("World!");
-      body.classList.remove("hide");
-      body.classList.add("show");
+      cover.classList.remove("show");
+      cover.classList.add("hide");
       handler_scroll();
       //handler_scroll();
     }, 1);
@@ -97,7 +105,6 @@ const index_button = select(".index_button")
 const app = select(".app")
 const index = select(".index")
 index_button.addEventListener("click", () => {
-  console.log("clicked")
   handle_index_view();
 })
 detect_hasindex()

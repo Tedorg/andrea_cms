@@ -1,0 +1,17 @@
+Title: 66_Journal
+
+----
+
+Headline: 
+
+----
+
+Description: Finished Espresso cups.
+
+----
+
+Tags: 
+
+----
+
+Toggle: false

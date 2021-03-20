@@ -29,17 +29,17 @@
 
           <?=$home->text()?></p> </div>
 
-          <img class="lazyload" data-expand="20" data-sizes="auto"src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="data-srcset="<?=$home->image()->srcset("breakpoints")?>" />
+          <img class="lazyload" data-expand="20" data-sizes="auto"src="<?php echo url('assets/preload') ?><?=e($image->orientation() == 'portrait', "/portrait.png", "/landscape.png")?>"srcset="<?=$home->image()->srcset("low_qualitiy")?>"data-srcset="<?=$home->image()->srcset("app")?>" />
         </div>
       </li>
       <?php foreach ($projects as $project): ?>
       <li class="item " data="<?php foreach ($project->tags()->split() as $category): ?> <?=$category?><?php endforeach;?>">
         <div class="wrapper test">
       <img class="<?php if ($project->toggle()->bool()): ?> product <?php endif?> hf vertical-center lazyload ratio-container" data-expand="00" data-sizes="auto"
-        src="<?=$project->image()->placeholderUri()?>"
-        data-src="<?=$project->image()->url()?>"
-        srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-        data-srcset="<?=$project->image()->srcset("breakpoints")?>" />
+        src="<?php echo url('assets/preload') ?><?=e($image->orientation() == 'portrait', "/portrait.png", "/landscape.png")?>"
+
+        srcset="<?php echo url('assets/preload') ?><?=e($image->orientation() == 'portrait', "/portrait.png", "/landscape.png")?>"
+        data-srcset="<?=$project->image()->srcset("app")?>" />
         <div class="description <?php if ($project->toggle()->bool()): ?> enlarge <?php endif?>">
           <p> <?=$project->headline()?><span><?php if ($project->description()): ?>  <?=$project->description()?><?php endif?></p>
           </span>

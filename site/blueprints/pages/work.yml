@@ -1,9 +1,24 @@
 title: Projekte
 
 
+      
 # Here we extend two sections which are defined in `/site/blueprints/sections/albums.yml`
 # They differ in their page status and the headline.
+
 sections:
+  
+    
+  content:
+    type: fields
+    fields:
+      headline:
+        label: Button Text
+        type: text
+      text:
+        label: Email Text
+        type: textarea
+
+
   drafts:
     extends: sections/albums
     headline: Drafts

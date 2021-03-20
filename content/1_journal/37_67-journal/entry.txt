@@ -1,0 +1,17 @@
+Title: 67_Journal
+
+----
+
+Headline: 67_Journal
+
+----
+
+Description: Nushiya-bocho, a special knife to carve spatulas.
+
+----
+
+Tags: 
+
+----
+
+Toggle: false

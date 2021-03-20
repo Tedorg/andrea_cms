@@ -1,103 +1,184 @@
-Title: Glossar
+Title: Glossary
 
 ----
 
 Text:
 
 **A**
-Age-nuri
-Lit. upper painting. The upper layers of lacquer typically in reference to the Tsugaru-nuri techniques. See also: uwa-nuri.
+
+Akakuchihonshu
+An intense orangy- red color.
+
+Arami-urushi
+The unprocessed sap taken straight from the lacquer tree. At this point it is a milky white liquid that cannot be used as lacquer without further processing. The sap is filtered and left to sit for an extended period of time to allow partial oxidation as well as evaporation of some of the water content. Once the liquid reaches the proper water content and oxidization levels, it can be used as lacquer and is then called kiurushi.
 
 **B**
-Bachiru
-Japanese art technique and Japanese craft of engraving dyed ivory.
+
 Bake
-Alternate reading for hake when preceeded by a descriptor e.g. urushi- bake.
-Bakumatsu era
-(1853−1867) — the last era of the Edo Period in 19th century Japan.
-Beni
-The Japanese name for carthamin, a red pigment derived from safflo- wer, Carthamus tinctorius. It is also the name for the color crimson. See also: bengara, iro-urushi, pigments, shu
+Alternate reading for hake. A brush made from horse or human hair for painting urushi. 
+
+Bengara
+Also benigara, a traditional reddish-brown to brownish-violet pigment used with urushi. It is traditionally derived from clay and earth, and the natural form will never be pure in its composition. The main constituent is Iron (III) Oxide, Fe2O3.
+
+Buro
+Alternate reading for furo, urushi-buro.
 
 **C**
-Camphor oil - See shono-yu Cashew lacquer - See kashu Charcoal - See sumi
-Chashitsu
-(literally „tea rooms“) in Japanese tradition is an architectural space de- signed to be used for tea ceremony (chanoyu) gatherings.
-Chibi
+
+Chijimu
+Wrinkles appear when the urushi layer is to thick respectively the humidity in the furô is to high.
+
+Cinnabar 
+The natural form of vermilion pigment
 
 **D**
+
 Daitai-bori
 Lit. outline carving. An atsugai-raden technique where the substrate is carved to inlay thick shell pieces. See also: raden
 Dakkanshitsu - see dakkatsu-kanshitsu
 
 **E**
+
 Ebonite
 Also hard rubber and vulcanite. A hard rubber produced by vulcanizing rubber for prolonged periods until it contains about 30%-40% sulfur. It is frequently used for writing instruments intended for lacquering. See also: laconite
 Eda-urushi - Lit. branch lacquer. See ki-urushi
 Edo period.
 
 **F**
-Fude
-Lit. brush. A round brush used for drawing or writing. In reference to urushi, it refers to brushes that are used for drawing or laying the ground for maki-e as opposed to a hake, which are used for laying down flat layers of lacquer. See also: jinuri-fude, maki-e-fude
-Fuga
-describes a refined mode of living, and it’s essentially the same as furyu.
+
+Furo 
+Lit. bath. See urushi-buro
+
+Fuki-urushi
+Lit. wiped lacquer. Clear lacquer, which is rubbed after it has hardened, giving a silky shine for the coated surface.
 
 **G**
+
 Gatame
 Alternate reading for katame when preceeded by a descriptor e.g. kiji- gatame.
 
+Gomitori-hake
+A brush to remove any dust that has settled just after the middle appli- cation and before starting the final application.
+
 **H**
-Habutae-tatake
-Lit. habutae (type of silk textile) impression. Lacquerware in which the surface shows the imprint of the silk textile, habutae.
-Hacho
+
+Hake
+Lit. brush. 
+
+Hera
+Lit. spatula. 
+
+Hana-nuri
+Lit. flower painting. Also hana-urushi-nuri, and nuritate. A finishing tech- nique on lacquer where the surface is not polished. Gloss is achieved by using hana-urushi or shuai-urushi. The surface of hananuri is some- what less glossy than pieces polised with roiro-migaki.
+Although there are fewer steps involved, finishing a piece of lacquerware with high quality hana-nuri is very difficult because the urushi must be thoroughly filtered to remove every particle and impurity, applied in a completely dust-free environment and applied carefully to reduce the appearance of brushstrokes and bubbles as much as possible.
+
+Hikimono
+Turning on a lathe, typically wood, but also other materials including metal, ebonite and resins.
+
+Hinoki-bera
+Lit cypress spatula. A long, flat, triangular spatula used with urushi made from cypress wood (hinoki) although it can be made with other types of wood. It is used for mixing urushi and for applying shita-ji or other paste-like mixtures of urushi. 
+
+**I**
+
+Iro-urushi
+Lit. colored lacquer
 
 **J**
+
 Japanese Sumac - Another name for the Lacquer tree. See urushi-no-ki
 Japanning
 
 **K**
-Kabazaiku
-(literally „birch craftsmanship“) is the traditional Japanese art of fashio- ning tea boxes, smoking accessories, and other woodworks out of the bark of a cherry tree.
-Kaiôsei - Neptune „Neptune was the king of the sea“
+
+Katame
+Lit. hardening. Sometimes pronounced gatame when following a de- scriptor. A lacquer process used to harden a porous or otherwise soft surface. The substrate is impregnated with diluted ki-urushi. Typically the process is used for wooden substrates, kiji gatame, and for the foun- dation layers, sabi gatame.
+
+Kiji gatame
+Lit. wood ground hardening. 
+
+Kijiro urushi
+Also suki-urushi. A translucent urushi made by removing water from ki urushi emulsion using the kurome and nayashi processes. Kijiro urushi dries to a translucent medium brown with a semi-matte surface. See also: nashiji, tamenuri, kijiro-nuri.
+
+Ki urushi
+Lit. raw lacquer. Also read as nama urushi. Raw urushi after it has been filtered and slightly reduced in water content to make it usable as lac- quer. There are different types of ki urushi depending on the origins of the tree as well as the season that the tree was tapped. Hatsugama (also hatsu urushi), collected early summer, has a high water content in the emulsion and has a high adhesive potential. It is used for adhesive mixtures and for suri-urushi. Sakari urushi, collected late summer, is used for processing into kuro urushi and suki urushi. Oso urushi is coll- ected early fall and urame and tome urushi is collected at the end of the season in late fall prior to cutting down the tree. Eda and seshime were traditionally collected from the branches during the winter after the tree was cut down, but in modern times, low quality urushi from China or a mixture of Japanese and Chinese urushi is sold as seshime. See respective entries for each. See arami urushi, kurome, nayashi
 
 **L**
+
 Linseed Oil - See amani-yu
 
 **M**
-Lit. uneven pear ground. Nashiji with unevenly applied metal powder. See nashiji.
-Murasaki ji - This is a purple-lacquer coating. Muro - Lit. room. See furo
+
+Muro 
+Lit. room. See furo
 
 **N**
-Nacre - Mother of Pearl. The pearlescent and/or iridescent inner lining of many mullosk shells composed of aragonite microcrystals in a protein matrix. See raden.
+
+Naka-nuri 
+Intermediate lacquer coat.
+
+Negoro-nuri
+Red lacquerware with an undercoat of black lacquer covered by a coat of red lacquer.
+
+Nuri
+Lit. painting, lacquering, layering, coating. A term used to denote a lacquer object or technique as opposed to the lacquer itself, urushi. 
+
+Nuritate 
+Lit. painting apply. See hana-nuri.
 
 **O**
+
 Òhaguro Urushi/Shôen-Urushi
 (ha = Teeth, Guro/kuro = black) urushi mixed with lamp sooth. Lamp sooth or lamp black is also used to make ink. Black Lacquer pigmen- ted with lamp sooth was traditionally used only for high quality lacquer work. For regular work the so called „roiro-urushi“ is used, a transparent lacquer that was toned black with iron sulfates. The „ohaguro-urushi“ will stay jet black for ever. the „roiro-urushi“ will turn brownish with the time.
 Okashi
 
 **R**
-Raden - trochus turbo halotis nautilus
-Rankaku-nuri
-The use of eggshells as an inlay material. After removing the inner membrane of the eggshell, it is pressed into mugi-urushi or nori-urushi, crushing it into small pieces with the finger. After curing, the eggshell fragments are layered over with lacquer then polished smooth to reveal the shell fragments again.
-Rantai - A body made of bamboo
-Rei-hoko
-To work for one‘s master for one year at a salary lower than the normal rate on completion of the apprenticeship in thanks for the training
+
 Rhus verniciflua
-Also Rhus vernicifera. The old scientific classification for the lacquer tree, Toxicodendron vernicifluum. Rhus is the genus name for various species of sumac which was what the lacquer tree was once conside- red. However, more recently, it was found to have a closer relation to the Toxicodendron species including poison ivy, poison oak and poison sumac. See urushi no ki
+Also Rhus vernicifera. The old scientific classification for the lacquer tree, Toxicodendron vernicifluum. Rhus is the genus name for various species of sumac which was what the lacquer tree was once conside- red. However, more recently, it was found to have a closer relation to the Toxicodendron species including poison ivy, poison oak and poison sumac. 
+
+Ro-iro-nuri
+Lit. wax color painting. polish each layer, hand polish final layers.
+
+Shiage - Polishing
 
 **S**
-Sabi - Lit. rust, patina. ground powder....
-Sabi-age-taka-maki-e
-Taka-maki-e which uses sabi as the method of creating the relief. it usu- ally has a higher relief than other methods.
-Japanese manual resist dyeing technique, which produces patterns on fabric
-Shibu
-Unripe persimmon juice. mixed with some seshime for ground prep.
-Shibugami
-Special paper used to cover containers with urushi
 
-**Z**
-Zanshin
-Remaining or lingering mind,“ sustaining a heightened state of aware- ness and mental follow-through
-Zenga
+Sabi - Lit. rust, patina. ground powder.
+
+Sashimono
+A form of joinery using various techniques to make angular boxes, trays and other vessels.
+
+**T**
+
+Togi-sumi
+Charcoal used to smoothen the surface of lacquerware. As it is soft, it is well-suited to polishing a lacquered piece or a round surface
+
+**U**
+
+Urushi-buro
+Also simply furo. The cabinet used for curing urushi. Typically it consists of a rot resistant wood chest or cabinet with a humidifier or at a mini- mum, a bowl with a wet towel. A furo is necessary for curing urushi as urushi requires humidity and warm temperatures to cure properly. Also urushi-muro or simply muro when speaking of a room used for curing larger pieces of urushiware.
+
+Urushiol
+Induced contact dermatitis - In Japanese: urushioru niyoru sesshoku hifuen. The characteristic rash caused by contact with urushiol, one of core ingredients in urushi. Urushiol is also the same chemical that causes the rashes associated with the other Toxicodendron species including poison ivy, oak and sumac. The rash is an allergic dermati- tis caused by a chemical reaction between urushiol and a skin protein which causes an immune response. It is because of this chemical re- action that contact areas must be washed immediately to best prevent a rash. The affliction usually consists of minor to severe itching, hives, eczema and sometimes blisters. Localized dermatitis can result from topical contact while generalized rash and malaise may result from in- gestion or prolonged exposure in sensitive individuals. There is currently no comptelely reliable method of preventing urushiol induced contact dermatitis once contact occurs, only ways to treat the effects which in- clude typical topical and oral steroidal and antihistamine medications.
+
+Uwa-nuri
+Lit. upper painting. Also pronounced ue-nuri or age-nuri. The upper lay- ers of lacquer in the sequece of traditional lacquerwork following the shitaji and naka-nuri, prior to any decorative work such as maki-e. These layers typically use the highest quality ro-iro-urushi or hana-urushi as it is the visible layer in a piece of lacquerware as well as the outermost surface. When speaking of tsugaru-nuri and the upper layers prior
+to sanding and polishing, it is referred to as age-nuri.
+
+**V**
+
+Vermilion 
+The synthetic version of the pigment cinnabar. 
+
+**W**
+
+Watashi-hake 
+A brush used to apply the final layer of urushi
+
+**Y**
+
+Yoshino-gami
+A thin but durable paper used a filter to remove particles and dust from uncured urushi as well as to reinforce a substrate prior to lacquering to help prevent cracking. It is sometimes coated with shibu.
 
 ----
 

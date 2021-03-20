@@ -11,17 +11,7 @@
 
 </main >
 <footer class="footer">
-  <div class="wrapper">
-  <p>&copy; <?=date("Y")?> / <?=$site->title()?></p>
 
-  <?php if ($about = page("about")): ?>
-    <nav class="social">
-      <?php foreach ($about->social()->toStructure() as $social): ?>
-        <a href="<?=$social->url()?>"><?=$social->platform()?></a>
-      <?php endforeach;?>
-    </nav>
-  <?php endif;?>
-  </div>
 </footer>
 <?=js("dist/main.js")?>
 

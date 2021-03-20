@@ -1,0 +1,13 @@
+Headline: 
+
+----
+
+Description: Finished urushiware ready to use.
+
+----
+
+Tags: bowl, urushi
+
+----
+
+Toggle: false

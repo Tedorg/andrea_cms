@@ -2,7 +2,11 @@ Title: Products
 
 ----
 
-Text: What I do
+Headline: copy to mail
+
+----
+
+Text: I would like to order this item:
 
 ----
 

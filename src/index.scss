@@ -4,9 +4,12 @@
     @import "merkliste";
     @import url("https://use.typekit.net/aqh7vkv.css");
     @import url("https://use.typekit.net/azu3uvx.css");
-    $background: map-get($colors, colorA);
+    // $background: map-get($colors, colorA);
+    $background: rgb(255, 255, 251);
     $font_primary: map-get($colors, colorB);
-    $font_menu: rmap-get($colors, colorC);
+    $font_menu_inverted: #4e3b3b;
+    $font_menu_regular: #B1C4C4;
+    $font_menu: $font_menu_regular;
 
     //   Neue Haas Grotesk Display Pro 45 Light
     //  font-family: neue-haas-grotesk-display, sans-serif;
@@ -62,7 +65,6 @@
       list-style: x none;
 
       strong {
-        font-family: aktiv-grotesk, sans-serif;
         font-weight: 500;
         font-style: normal;
       }
@@ -83,7 +85,7 @@
     h3,
     h4,
     h5 {
-      font-family: neue-haas-grotesk-display, sans-serif;
+      font-family: aktiv-grotesk, sans-serif;
       font-weight: 500;
       font-style: normal;
       text-decoration: none;
@@ -112,39 +114,44 @@
       font-family: sans-serif;
     }
 
-    body.hide {
-      visibility: hidden;
-      opacity: 0;
-    }
-
     // @media (min-width: 600px) {
     body,
     html {
       touch-action: manipulation;
-      height: 100vh;
+      height: 100%;
+      width: auto;
       margin: 0;
       padding: 0;
       margin: 0;
       overscroll-behavior: none;
+
+      &.color_fix {}
     }
 
     // }
-    body.show {
-      //visibility: visible;
+    .blanket {
       display: block;
-      animation: fadein 0.5s;
-      -moz-animation: fadein 0.5s;
-      /* Firefox */
-      -webkit-animation: fadein 0.5s;
-      /* Safari and Chrome */
-      -o-animation: fadein 0.5s;
-      /* Opera */
-    }
+      position: fixed;
+      height: 100vh;
+      width: 100vw;
+      background: white;
+      z-index: 10;
 
-    svg {
-      margin: 0;
-      height: auto;
-      width: 10px
+      &.show {
+        visibility: visible;
+        opacity: 1;
+      }
+
+      &.hide {
+        display: none;
+        animation: fadeout 10.5s;
+        -moz-animation: fadeout 10.5s;
+        /* Firefox */
+        -webkit-animation: fadeout 10.5s;
+        /* Safari and Chrome */
+        -o-animation: fadeout 0.5s;
+        /* Opera */
+      }
     }
 
     .overflow-y-hidden {
@@ -162,9 +169,9 @@
 
       .header-wrapper {
         position: fixed;
-        height: 1.5rem;
+        height: 20px;
         margin: auto;
-        z-index: 2;
+        z-index: 1;
         width: 100%;
         mix-blend-mode: difference; //hard-light; //luminosity; //;
 
@@ -173,17 +180,31 @@
           position: absolute;
           top: 50%;
           transform: translateY(-50%);
-          margin-left: 5px;
-          height: auto;
+          margin-left: 1px;
+          height: fit-content;
           display: flex;
 
           svg {
-            //height: 7rem;
-            margin: auto 5px;
-            //height: 1.2rem;
-            // @include set-fontsize(xs);
-            height: 0.7rem;
+            display: block;
+            height: 15px;
+            max-height: 100%;
             width: auto;
+            margin: auto 3px;
+
+            .st0 {
+              fill: $font_menu;
+              stroke: $font_menu;
+              stroke-width: 0.2;
+
+              &.inverted_color {
+                fill: $font_menu_inverted;
+                stroke: $font_menu_inverted;
+              }
+            }
+
+            path {
+              vector-effect: non-scaling-stroke;
+            }
           }
 
           a:after {
@@ -195,9 +216,14 @@
           }
 
           a {
-            margin-right: 0.55rem;
+            margin-right: 0.15rem;
             @include set-fontsize(s);
-            color: #B1C4C4;
+            color: $font_menu;
+
+            &.inverted_color {
+              color: $font_menu_inverted !important;
+            }
+
             //color: #4e3b3b;
           }
 
@@ -222,10 +248,50 @@
 
           a {
             @include set-fontsize(s);
-            color: #B1C4C4;
-            //color: #4e3b3b;
+            //color: #B1C4C4;
+            color: $font_menu;
           }
         }
+      }
+    }
+
+    @keyframes fadeout {
+      from {
+        opacity: 1;
+      }
+
+      to {
+        opacity: 0;
+      }
+    }
+
+    @-moz-keyframes fadeout {
+      from {
+        opacity: 1;
+      }
+
+      to {
+        opacity: 0;
+      }
+    }
+
+    @-webkit-keyframes fadeout {
+      from {
+        opacity: 1;
+      }
+
+      to {
+        opacity: 0;
+      }
+    }
+
+    @-o-keyframes fadeout {
+      from {
+        opacity: 1;
+      }
+
+      to {
+        opacity: 0;
       }
     }
 
@@ -360,7 +426,10 @@
     }
 
     footer {
-      visibility: hidden;
+      bottom: 0;
+      width: 100%;
+      display: block;
+      visibility: visible;
       height: 5vh;
     }
 
@@ -503,33 +572,31 @@
         //background-color: red;
         .grid {
           display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+          grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+          column-gap: 0.1rem;
 
-          //column-gap: 5rem;
           .item {
             position: relative;
-            margin: 1%;
             display: flex;
             justify-content: center;
             align-items: center;
 
+            p {
+              @include set-fontsize(xxs);
+              display: block;
+              position: absolute;
+              bottom: -0.5rem;
+              left: 1.5rem;
+            }
+
             .container {
+              margin: 1.5rem;
               background: grey;
 
               img {
                 display: block;
                 max-width: 100%;
                 max-height: 100%;
-              }
-
-              p {
-                @include set-fontsize(xxs);
-                margin-top: 20px;
-                max-width: 100%;
-                display: block;
-                position: absolute;
-                bottom: 0;
-                left: 18.3%;
               }
             }
           }
@@ -646,10 +713,9 @@
                   @include set-fontsize(xs);
 
                   .orderItems {
-                    margin-left: 0.25rem;
-
-                    >* {
-                      margin-left: 1.25rem;
+                    a {
+                      margin-left: .25rem;
+                      font-size: 0.75rem;
                     }
                   }
                 }
@@ -665,29 +731,72 @@
       position: relative;
     }
 
+    @include respond-above(xs) {
+      body {
+        main .content {
+          .index {
+            .grid {
+              grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+
+              .item {
+                p {
+                  @include set-fontsize(xxs);
+                  bottom: 0;
+                  left: 2.1rem;
+                }
+
+                .container {
+                  margin: 2.1rem;
+
+                  img {}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
     @include respond-above(s) {
       body {
         header {
           .header-wrapper {
             nav {
               svg {
-                //height: 7rem;
-                margin: auto 5px;
-                //height: 1.2rem;
-                // @include set-fontsize(xs);
-                height: 0.9rem;
-                width: auto;
+                height: 18px;
+                margin: auto 3px;
               }
 
               a {
-                margin-right: 0.55rem;
-                @include set-fontsize(sm);
+                @include set-fontsize(md);
               }
             }
 
             .menu-list {
               a {
-                @include set-fontsize(sm);
+                @include set-fontsize(md);
+              }
+            }
+          }
+        }
+
+        main .content {
+          .index {
+            .grid {
+              grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+
+              .item {
+                p {
+                  @include set-fontsize(xxs);
+                  bottom: 0;
+                  left: 2.1rem;
+                }
+
+                .container {
+                  margin: 2.1rem;
+
+                  img {}
+                }
               }
             }
           }
@@ -700,15 +809,6 @@
         header {
           .header-wrapper {
             nav {
-              svg {
-                //height: 7rem;
-                margin: auto 5px;
-                //height: 1.2rem;
-                // @include set-fontsize(xs);
-                height: 1.15rem;
-                width: auto;
-              }
-
               a {
                 @include set-fontsize(md);
               }
@@ -741,14 +841,8 @@
         height: 100%;
 
         .index {
-          width: 100vw;
-          height: 100vw;
-          display: none;
-          margin: 0 auto;
-
           .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
           }
         }
 
@@ -786,14 +880,6 @@
                   transform: translateY(-50%);
                   left: 50%;
                   transform: translateX(-50%);
-
-                  svg {
-                    margin-bottom: -0.5rem;
-                    margin-left: 5px;
-                    margin-right: 5px;
-                    height: 1.5rem;
-                    width: auto
-                  }
 
                   p {
                     color: B1C4C4;

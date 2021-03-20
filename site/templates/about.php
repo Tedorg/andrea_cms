@@ -57,11 +57,15 @@
 <img src="<?=$page->image()->url()?>"/>
 
   </article>
+</div>
+</div>
 
 </div>
 
+
+
 </div>
-</div>
+
 </main>
 
 
